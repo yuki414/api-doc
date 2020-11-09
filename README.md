@@ -98,7 +98,7 @@ API の使用には、それに先立って、ユーザーの認可を得、さ�
 
 |                                                                                                                        |メソッド        |URI                                  |必要な権限(スコープ) |
 |------------------------------------------------------------------------------------------------------------------------|----------------|-------------------------------------|---------------------|
-|[入出金の全ての大分類(及びその中のユーザー作成の中分類)を得る](transaction_categories_index.md)                         |GET             |/api/v1/transactions/categories      |`transactions`       |
+|[入出金の全ての大分類(及びその中のユーザー作成の中分類)を得る](transaction_categories_index.md)                         |GET             |/api/v1/transactions/categories      |なし       |
 |[入出金項目を登録する](transactions_create.md)                                                                          |POST            |/api/v1/transactions                 |`manage_transactions`|
 |[特定の入出金項目の情報を書き換える](transactions_update.md)                                                            |PATCH または PUT|/api/v1/transactions/:id             |`manage_transactions`|
 |[全ての入出金記録を得る](transactions_index.md)                                                                         |GET             |/api/v1/transactions                 |`transactions`       |
